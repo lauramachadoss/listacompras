@@ -17,7 +17,6 @@ botaoAdicionar.addEventListener("click", (evento) => {
     inputCheckbox.type = "checkbox";
     inputCheckbox.id = "checbox-" = contador++;
     const nomeItem = document.createElement("p");
-<<<<<<< HEAD
     nomeItem.innerText = inputItem.value;
 
     containerItemDaLista.appendChild(inputCheckbox);
@@ -26,7 +25,3 @@ botaoAdicionar.addEventListener("click", (evento) => {
     itemDaLista.appendChild(containerItemDaLista);
     listaDeCompras.appendChild(itemDaLista)
     })
-=======
-    nomeItem.innerText = inputItem;
-})
->>>>>>> c2755a9 (Adiciona e anexa elementos)
